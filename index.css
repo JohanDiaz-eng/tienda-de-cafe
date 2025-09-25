@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Miniver&display=swap');
+
+body {
+    background-color: #3b141c;
+    min-height: 100vh;     
+}
+
+.container-header {
+    background: #3b141c;
+    position: fixed;
+    width: 155%;
+    height: 60px;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.container-header header {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.container-header header .emoji a{
+    color: #fff;
+    font-size: 26px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 10px;
+}
+
+.container-header header ul {
+    display: flex;
+    list-style: none;
+    right: 0;
+    padding: 10px;
+
+}
+
+.container-header header ul li a{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-right: 150px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.container-header header ul li a:hover {
+    background-color: #f3961c;
+    color: black;
+    transform: scale(1.2);
+    border-radius: 500px;
+    padding: 4px 4px;
+}
+
+/* inicio section */
+
+.inicio {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1{
+    font-size: 60px;
+    font-family: "miniver", sans-serif;
+    color: #f3961c;
+}
+h2{
+    font-size: 70px;
+    color: #fff;
+}
+
+h3{
+    color: #fff;
+}
+
+.links {
+    position: absolute;
+    bottom: 0;
+    right: 65%;
+    text-align: center;
+    padding: 600px;
+    flex-direction: row;
+}
+
+.links a{
+    text-decoration: none;
+    background-color: #f3961c;
+    color: #000;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+    display: inline-block;
+    margin: 10px;
+}
+
+.links a:hover{
+    background-color: #fff;
+}
+
+.container-img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
