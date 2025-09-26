@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Miniver&display=swap');
 
 body {
-    background-color: #252525;
+    background-color: #fff;
     min-height: 100vh;     
 }
 
@@ -63,30 +63,7 @@ body {
     padding: 4px 4px;
 }
 
-.carrito{
-    margin-left: auto;
-    
-}
-.fa-cart-shopping{
-    font-size: 18px;
-    color: aliceblue;
-    cursor: pointer;
-    transition: transform 0.3s ease, color 0,3s ease;
-}
-
-.menu h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
-    padding: 90px 0;
-    color: #fff;
-    margin: 30px 0;
-    border-bottom: 3px solid #f3961c;
-    padding-bottom: 40px;
-    margin: 0 auto;
-    width: 93px;
-}
-
-.container {
+.galeria {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -96,60 +73,33 @@ body {
     margin: 10px 600px;
 }
 
-.ecard {
-    background: #3b141c;
-    border-radius: 20px;
-    width: 300px;
-    height: 420px;
-    flex-direction: column;
-    text-align: center;
-    padding: 20px 20px 20px 20px;
-    transition: transform 0.3s ease;
-    background: linear-gradient(to right,#3b141c,#8a2438);
-
-}
-
-.ecard:hover {
-    transform: scale(1.05);
-}
-
-.ecard img {
-    width: 100%;
-    border-radius: 30px;
-    height: 230px;
-}
-
-.ecard .contenido {
-    color: #fff;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.galeria h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.ecard h3 {
-    margin: 10px 0 5px;
-    font-size: 25px;
-}
-
-.btn {
-    background-color: #f3961c;
+    font-size: 40px;
+    padding: 90px 0;
     color: black;
-    border: none;
-    border-radius: 8px;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s;
-    margin: 5px;
+    margin: 30px 0;
+    border-bottom: 3px solid #f3961c;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    width: 150px;
 }
 
-.btn:hover {
-    background-color: #453b3b;
-    transform: scale(1.);
-    color: #fff;
+.contenedor-imagenes img {
+    width: 400px;
+    border-radius: 30px;
+    height: 290px;
+    padding: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.contenedor-imagenes {
+    padding: 30px;
+}
+
+.contenedor-imagenes img:hover {
+    transform: scale(1.05);
 }
 
 
